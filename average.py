@@ -1,6 +1,5 @@
 def average(array):
     # your code goes here
-    print(sum(set(array)))
     print(len(set(array)))
     return float(sum(set(array)))/len(set(array))
 
